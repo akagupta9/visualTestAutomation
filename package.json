@@ -1,0 +1,32 @@
+{
+  "name": "visualtestautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.ts -t 300000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akagupta9/visualTestAutomation.git"
+  },
+  "author": "Akanksha Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akagupta9/visualTestAutomation/issues"
+  },
+  "homepage": "https://github.com/akagupta9/visualTestAutomation#readme",
+  "dependencies": {
+    "@applitools/eyes.webdriverio": "^2.31.3",
+    "@types/node": "^14.14.31",
+    "@types/webdriverio": "^5.0.0",
+    "mocha": "^8.4.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2",
+    "webdriverio": "^4.14.4"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "@wdio/selenium-standalone-service": "^7.10.1"
+  }
+}
